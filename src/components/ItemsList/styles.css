@@ -1,0 +1,23 @@
+.itemsList-ul {
+  list-style-type: none;
+}
+
+.itemsList-ul li {
+  padding: 5px;
+}
+
+.itemsList-ul li:hover{
+  cursor: pointer;
+}
+
+.done{
+  text-decoration: line-through;
+}
+
+.to-be-done{
+  text-decoration: none;
+}
+
+.delete-item{
+  color: red
+}
