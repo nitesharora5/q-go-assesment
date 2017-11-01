@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders a snapshot 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="header-title"
+  >
+    <img
+      alt="logo"
+      className="header-logo"
+      src="logo.png"
+    />
+    <h2>
+      QGo Desktop React Assessment
+    </h2>
+  </div>
+  <div>
+    <div
+      className="itemCreator"
+    >
+      <input
+        className="itemCreator-input"
+        placeholder="What do you need to do?"
+        type="text"
+      />
+      <input
+        className="itemCreator-button"
+        onClick={[Function]}
+        type="button"
+        value="Add Task"
+      />
+    </div>
+    <div>
+      <ul
+        className="itemsList-ul"
+      >
+        <li
+          className="to-be-done"
+          onClick={[Function]}
+        >
+          Call mum
+          <span
+            className="delete-item"
+            onClick={[Function]}
+          >
+             X 
+          </span>
+        </li>
+        <li
+          className="to-be-done"
+          onClick={[Function]}
+        >
+          Buy cat food
+          <span
+            className="delete-item"
+            onClick={[Function]}
+          >
+             X 
+          </span>
+        </li>
+        <li
+          className="to-be-done"
+          onClick={[Function]}
+        >
+          Water the plants
+          <span
+            className="delete-item"
+            onClick={[Function]}
+          >
+             X 
+          </span>
+        </li>
+      </ul>
+    </div>
+    <div>
+      Filter:   
+      <span>
+         
+        All
+         
+      </span>
+        
+      <button
+        onClick={[Function]}
+      >
+        Active
+      </button>
+       
+        
+      <button
+        onClick={[Function]}
+      >
+        Completed
+      </button>
+       
+        
+    </div>
+  </div>
+</div>
+`;

@@ -3,7 +3,7 @@ import { Provider } from 'react-redux';
 import configureStore from './redux/store';
 import Header from './components/Header';
 import ItemCreator from './components/ItemCreator';
-import ItemsList from './components/ItemsList';
+import VisibleItemList from './components/VisibleItemList';
 import ItemsFilter from './components/ItemsFilter'
 import './app.css';
 
@@ -17,7 +17,7 @@ class App extends Component {
           <Header />
           <div>
             <ItemCreator />
-            <ItemsList />
+            <VisibleItemList />
             <ItemsFilter />
           </div>
         </div>

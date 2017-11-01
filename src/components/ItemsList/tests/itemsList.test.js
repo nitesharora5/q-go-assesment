@@ -27,14 +27,13 @@ describe('ItemsList', () => {
 
   it('should render items as list items', () => {
     const items = [{ id: 1, content: 'Test 1', completed: false }, { id: 2, content: 'Test 2', completed: false }];
-    const renderedItem = shallow(<ItemsList {...defaultProps} items={items} onToggle={onToggleMock} onDelete={onDeleteMock}  />);
+    const renderedItem = mount(<ItemsList {...defaultProps} items={items} onToggle={onToggleMock} onDelete={onDeleteMock}  />);
     expect(renderedItem.find('li')).toHaveLength(2);
   });
 
   it('should render default item as not done', ()=>{
     const items = [{ id: 1, content: 'Test 1', completed: false }];
     const renderedItem = mount(<ItemsList {...defaultProps} items={items} onToggle={onToggleMock} onDelete={onDeleteMock} />);
-
     expect(renderedItem.find('.to-be-done').text()).toBe('Test 1 X ');
   })
 
